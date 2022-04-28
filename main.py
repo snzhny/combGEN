@@ -53,6 +53,4 @@ with open("output.txt", mode='w') as file:
             file.write(str(ran))
     else:
         print("Incorrect Input")
-
-
 print("Check your 'output.txt'")

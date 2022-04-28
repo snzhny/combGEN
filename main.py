@@ -24,9 +24,6 @@ with open("output.txt", mode='w') as file:
                     words.remove(ran)
             words.append(str(ran))
             file.write(str(ran) + "\t")
-
-
-
     elif side in ("2", "right"):
         for i in range(100000):
             j = False
